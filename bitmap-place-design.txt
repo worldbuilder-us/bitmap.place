@@ -1,0 +1,49 @@
+BITMAP.PLACE: A 2D Metaverse implementation
+
+218812.bitmap is a planet with unbounded parcels of land. 
+Each parcel of land is an infinite canvas, extending in all directions. 
+Each parcel of land is owned by a user, granted by tokens. Access to a parcel of land is 
+controlled by the owner, and can be granted to other users using tokens. 
+
+We build: 
+1. An implementation of yourworldoftext that allows for each 
+parcel to be owned by a user, and for access to be controlled by tokens.
+- Using RelayX could be the simplest way to do this
+    - Makes it interoperable between BSV and BTC, and allows for easy onboarding
+- RelayX handles would be an easy way to, for example, color code each user's text. 
+
+EXAMPLE: bitmap.place/1 , bitmap.place/2 , ... bitmap.place/{x}
+Each of these parcels is private, and only accessible to token holders. 
+
+2. A page for users to order a parcel and the amount of tokens for that parcel.
+Let us use an example number of 0.001BTC per token. 
+- A user may want to purchase a private parcel of land for them and their friends,
+so they ask for 10 tokens. 
+- A more entrepreneurial user may want a massive engaging club going, and ask for 1000 tokens.
+    - The smart enterprising user would see the value in acquiring 1000 tokens and selling 990 of them. 
+
+10 TOKENS x 0.001BTC = 0.01BTC
+1000 TOKENS x 0.001BTC = 1BTC
+~~~
+MULTIPLIED BY UNBOUNDED AMOUNT OF PARCELS
+
+Each parcel is like a private club, and the most advanced version of the metaverse seen thus far. 
+It is a timeless canvas, and a place for users to express themselves.
+It is as safe as possible, because it is limited to ASCII text. 
+It is as private as possible, because it is only accessible to token holders.
+
+## How to run
+- We take orders through our form. We communicate directly with customer. 
+- We mint unique token for each parcel, ie. Parcel #001 uses TOKEN #001, Parcel #002 uses TOKEN #002, etc.
+- We send tokens to customer's RelayX handle.
+- User logs into bitmap.place with their RelayX wallet. They can use RelayX to transfer and sell tokens.
+- Users now have their own private land in the metaverse, for use however they want. 
+
+This is our minimum viable product.
+
+EXTRA:
+- Relay handles can be used to color code text so users are identifiable.
+- Pricing can be competitive 
+
+
+
